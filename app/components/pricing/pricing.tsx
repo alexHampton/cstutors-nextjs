@@ -1,8 +1,34 @@
+import PriceCard from '../price-card/price-card';
 import './pricing.css';
-export default function Pricing() {
+
+export default function Pricing({ setContactMessage }: { setContactMessage: CallableFunction}) {
     const flexPassPrice = 70;
     const monthlyPassPrice = 60;
     const semesterPassPrice = 50;
+
+    const pricingPlans = [
+        {
+            id: 0,
+            passType: 'Flex Pass',
+            description: 'No commitment, just sign up whenever you have time.',
+            price: flexPassPrice,
+            isFocus: false
+        },
+        {
+            id: 1,
+            passType: 'Monthly Pass',
+            description: 'Prepay for 4 1-hour sessions ahead of time and get a $10 discount per session.',
+            price: monthlyPassPrice,
+            isFocus: true
+        },
+        {
+            id: 2,
+            passType: 'Semester Pass',
+            description: 'Prepay for 16 sessions and get $20 discount per session as compared to the Flex Pass.',
+            price: semesterPassPrice,
+            isFocus: false
+        }
+    ];
 
     return(
         <section id="pricing-1790">
@@ -15,45 +41,18 @@ export default function Pricing() {
                 </div>
                 <div className="cs-wrapper">
                     <ul className="cs-card-group">
-                        <li className="cs-item">
-                            <span className="cs-package">Flex Pass</span>
-                            <div className="cs-flex-wrapper">
-                                <span id="flexPassPrice" className="cs-price">${flexPassPrice}</span>
-                                <span className="cs-frequency">
-                                    /Session
-                                </span>
-                            </div>
-                            <p className="cs-item-text">
-                                No commitment, just sign up whenever you have time.
-                            </p>
-                            <a id="flexPassBtn" href="#contact-1388" className="cs-button-solid cs-price-button">Contact Us</a>
-                        </li>
-                        <li className="cs-item cs-popular">
-                            <span className="cs-package">Monthly Pass</span>
-                            <div className="cs-flex-wrapper">
-                                <span id="monthlyPassPrice" className="cs-price">${monthlyPassPrice}</span>
-                                <span className="cs-frequency">
-                                    /Session
-                                </span>
-                            </div>
-                            <p className="cs-item-text">
-                                Prepay for 4  1-hour sessions ahead of time and get a $10 discount per session.
-                            </p>
-                            <a id="monthlyPassBtn" href="#contact-1388" className="cs-button-solid cs-price-button">Contact Us</a>
-                        </li>
-                        <li className="cs-item">
-                            <span className="cs-package">Semester Pass</span>
-                            <div className="cs-flex-wrapper">
-                                <span id="semesterPassPrice" className="cs-price">${semesterPassPrice}</span>
-                                <span className="cs-frequency">
-                                    /Session
-                                </span>
-                            </div>
-                            <p className="cs-item-text">
-                                Prepay for 16 sessions and get $20 discount per session as compared to the Flex Pass
-                            </p>
-                            <a id="semesterPassBtn" href="#contact-1388" className="cs-button-solid cs-price-button">Contact Us</a>
-                        </li>
+
+                        {pricingPlans.map((plan, index) => (
+                            <PriceCard
+                                key={plan.id}
+                                passType={plan.passType}
+                                description={plan.description}
+                                price={plan.price}
+                                setContactMessage={setContactMessage}
+                                isFocus={plan.isFocus}
+                            />
+                        ))}
+
                     </ul>
                 </div>
             </div>

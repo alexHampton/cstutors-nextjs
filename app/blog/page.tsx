@@ -34,7 +34,7 @@ export default function Page() {
         {
             'id': 5,
             'title': 'Must Know Java Concepts',
-            'date': '04 Mar, 2025',
+            'date': '05 Mar, 2025',
             'image': 'blog5.jpg',
             'href': './blog/05',
         },

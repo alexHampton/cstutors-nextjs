@@ -1,6 +1,13 @@
 import Link from "next/link";
 
-export default function BlogCard({ title, date, image, href }: {title: string, date: string, image: string, href: string}) {
+type Props = { 
+    title: string, 
+    date: string, 
+    image: string, 
+    href: string
+};
+
+export default function BlogCard({ title, date, image, href }: Props) {
     return(
         <li className="cs-item">
             <Link className="cs-link" href={href} title={title}>

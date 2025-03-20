@@ -2,7 +2,14 @@ import { JSX, ReactNode } from 'react';
 import './blogpage.css';
 import Banner from './banner';
 
-export default function BlogPage({image, title, date, children}: {image: string, title: string, date: string, children: ReactNode}) {
+type Props = {
+    image: string,
+    title: string,
+    date: string,
+    children: ReactNode
+};
+
+export default function BlogPage({image, title, date, children}: Props) {
     return (
         <>
             <Banner image={image} />

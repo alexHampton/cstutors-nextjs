@@ -1,6 +1,10 @@
 import './banner.css';
 
-export default function Banner({image}: {image: string}) {
+type Props = {
+    image: string
+}
+
+export default function Banner({image}: Props) {
     return(
         < div id = "banner-849" >
             <div className="cs-container">
