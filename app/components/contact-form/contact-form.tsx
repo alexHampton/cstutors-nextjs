@@ -13,7 +13,7 @@ export default function ContactForm({ contactMessage, setContactMessage }: Props
     }
 
     return(
-        <form action='/thank-you' className="cs-form" id="cs-form-1388" name="Contact Form" method="post" netlify-honeypot="bot-field" netlify='true'>
+        <form action='/thank-you' className="cs-form" id="cs-form-1388" name="Contact Form" method="post" netlify-honeypot="bot-field" data-netlify='true'>
             <h3 className="cs-h3">Send us a message</h3>
             <label className="cs-label">
                 Name
