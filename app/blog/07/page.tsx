@@ -9,14 +9,14 @@ export default function Page() {
             date="07 Mar 2025" >
                 
                 
-            <p>Software engineering is one of the most in-demand and rewarding careers in tech. If you're studying AP
-                Computer Science A and wondering what it's like to be a software engineer, this article will give you a
+            <p>Software engineering is one of the most in-demand and rewarding careers in tech. If you&apos;re studying AP
+                Computer Science A and wondering what it&apos;s like to be a software engineer, this article will give you a
                 glimpse into a typical day in the life of a professional coder.</p>
 
             <h2>Morning: Planning & Team Meetings</h2>
             <p>Most software engineers start their day by checking emails, reviewing their to-do list, and preparing for
                 stand-up meetings. A stand-up meeting is a quick daily team check-in where engineers discuss what they
-                worked on yesterday, what they'll be working on today, and any challenges they're facing.</p>
+                worked on yesterday, what they&apos;ll be working on today, and any challenges they&apos;re facing.</p>
             <p>These meetings help keep projects on track and ensure smooth collaboration between engineers, designers, and
                 project managers.</p>
 
@@ -27,7 +27,7 @@ export default function Page() {
                 <li>Fixing bugs in existing software</li>
                 <li>Optimizing performance for better efficiency</li>
             </ul>
-            <p>Code reviews are also a big part of the job. Engineers check each other's work to ensure high-quality,
+            <p>Code reviews are also a big part of the job. Engineers check each other&apos;s work to ensure high-quality,
                 maintainable code. This process helps catch errors early and improves collaboration within the team.</p>
 
             <h2>Lunch Break: A Time to Recharge</h2>
@@ -45,7 +45,7 @@ export default function Page() {
                 issues before the software is released.</p>
 
             <h2>Evening: Wrapping Up & Learning</h2>
-            <p>At the end of the day, engineers commit their changes, document their work, and prepare for the next day's
+            <p>At the end of the day, engineers commit their changes, document their work, and prepare for the next day&apos;s
                 tasks. Many also spend time learning new programming languages, exploring industry trends, or working on
                 side projects to enhance their skills.</p>
 

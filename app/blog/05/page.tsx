@@ -11,10 +11,10 @@ export default function Page() {
 
             <p>The AP Computer Science A (AP CSA) exam tests your understanding of Java programming and object-oriented concepts.
                 Scoring well requires a strong grasp of fundamental Java topics that frequently appear in both multiple-choice and
-                free-response sections. In this guide, we'll cover the essential Java concepts you need to know to excel on the AP CSA
+                free-response sections. In this guide, we&apos;ll cover the essential Java concepts you need to know to excel on the AP CSA
                 exam.</p>
             <h2>1. Variables and Data Types</h2>
-            <p>Understanding Java's primitive data types (int, double, boolean, char) and reference types (String, arrays, objects) is
+            <p>Understanding Java&apos;s primitive data types (int, double, boolean, char) and reference types (String, arrays, objects) is
                 crucial. Be comfortable with variable declaration, initialization, and type conversions.</p>
             <h2>2. Operators and Expressions</h2>
             <p>Know how to use arithmetic, relational, logical, and assignment operators. Understanding operator precedence helps avoid

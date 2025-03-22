@@ -8,8 +8,8 @@ export default function Page() {
             date="04 Mar 2025" >
 
             <p>AP Computer Science A (AP CSA) is one of the most challenging high school courses, requiring students to master Java
-                programming, object-oriented principles, and problem-solving techniques. Whether you're struggling with syntax,
-                concepts, or exam strategies, AP CSA tutoring can make a significant difference in your learning journey. Here’s why
+                programming, object-oriented principles, and problem-solving techniques. Whether you&apos;re struggling with syntax,
+                concepts, or exam strategies, AP CSA tutoring can make a significant difference in your learning journey. Here&apos;s why
                 investing in a tutor can help you excel in the course and ace the AP CSA exam.</p>
             <h2>1. Personalized Learning Tailored to Your Needs</h2>
             <p>Classroom settings often follow a rigid pace, leaving some students behind. A dedicated AP CSA tutor provides <strong>one-on-one</strong>
@@ -48,12 +48,12 @@ export default function Page() {
                 tutoring now can give you a head start in the field of computer science.</p>
 
             <h2>6. Boost Confidence & Reduce Stress</h2>
-            <p>Many students feel overwhelmed by AP CSA's rigorous curriculum. Having a supportive tutor can alleviate stress, boost
+            <p>Many students feel overwhelmed by AP CSA&apos;s rigorous curriculum. Having a supportive tutor can alleviate stress, boost
                 your confidence, and make learning Java <strong>enjoyable rather than frustrating</strong>.</p>
 
             <h2>Key Takeaways</h2>
             <p>AP CSA tutoring is a game-changer for students who want to master Java and achieve high scores on the AP exam. Whether
-                you're aiming for a 5 on the AP test or just want to feel more confident in class, tutoring provides the support and
+                you&apos;re aiming for a 5 on the AP test or just want to feel more confident in class, tutoring provides the support and
                 guidance needed for success.</p>
             <p>Looking for expert AP CSA tutoring? Contact us to start your journey toward mastering Java today!</p>
 

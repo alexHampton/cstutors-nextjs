@@ -8,7 +8,7 @@ export default function Hero() {
                 <p className="cs-text">
                     Our tutors are Computer Science professionals and are well-versed in the exam.
                 </p>
-                <p className="cs-text">With a range of experiences, we can help with all sorts of computer science topics. Not sure if we're right for you? Contact us now, and we can discuss your goals to determine if we are a good fit!</p>
+                <p className="cs-text">With a range of experiences, we can help with all sorts of computer science topics. Not sure if we&apos;re right for you? Contact us now, and we can discuss your goals to determine if we are a good fit!</p>
                 <a id="freeSessionBtn" href="#contact-1388" className="cs-button-solid">Sign up for a free first session!</a>
             </div>
 

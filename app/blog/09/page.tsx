@@ -10,7 +10,7 @@ export default function Page() {
 
 
 
-            <p>Learning Java and computer science can be both exciting and challenging. Whether you're taking AP Computer
+            <p>Learning Java and computer science can be both exciting and challenging. Whether you&apos;re taking AP Computer
                 Science A or self-studying, staying motivated is key to long-term success. Here are some strategies to help
                 you stay on track and enjoy the learning process.</p>
 
@@ -31,9 +31,9 @@ export default function Page() {
 
             <h2>3. Work on Fun Projects</h2>
             <p>Applying what you learn to personal projects makes studying more engaging. Create a simple game, automate a task, or
-                build a website—anything that excites you! If you're passionate about gaming, try coding a basic text-based
+                build a website—anything that excites you! If you&apos;re passionate about gaming, try coding a basic text-based
                 adventure
-                game in Java. If you like data science, explore Java's capabilities in handling data structures. The key is to
+                game in Java. If you like data science, explore Java&apos;s capabilities in handling data structures. The key is to
                 choose
                 projects that align with your interests so learning feels enjoyable rather than just another assignment.</p>
 
@@ -41,16 +41,16 @@ export default function Page() {
             <p>Learning is easier with support. Join coding forums, Discord groups, or study groups for AP Computer Science A.
                 Engaging
                 with peers can help you stay accountable and inspired. Participating in online communities like Stack Overflow,
-                Reddit's
+                Reddit&apos;s
                 r/learnprogramming, or GitHub discussions can expose you to different perspectives and solutions. Study groups can
-                provide motivation, as you'll have others to discuss challenging concepts with and share learning resources.</p>
+                provide motivation, as you&apos;ll have others to discuss challenging concepts with and share learning resources.</p>
 
             <h2>5. Seek Help When Stuck</h2>
-            <p>Getting stuck is part of learning, but it can be frustrating. Don't get discouraged—ask for help! Use online
+            <p>Getting stuck is part of learning, but it can be frustrating. Don&apos;t get discouraged—ask for help! Use online
                 resources
                 like W3Schools, GeeksforGeeks, or Java documentation. Watching tutorials on YouTube or enrolling in interactive
                 courses
-                on platforms like Codecademy and Udemy can also provide valuable insights. If you're struggling with specific
+                on platforms like Codecademy and Udemy can also provide valuable insights. If you&apos;re struggling with specific
                 concepts,
                 working with a tutor can give you one-on-one guidance tailored to your needs.</p>
 
@@ -61,14 +61,14 @@ export default function Page() {
                 <li>Watch video lessons for visual explanations.</li>
                 <li>Complete coding challenges on platforms like LeetCode or HackerRank.</li>
                 <li>Practice writing code by hand to reinforce syntax and logic.</li>
-                <li>Engage in peer coding, where you work with a friend on a project or debug each other's code.
+                <li>Engage in peer coding, where you work with a friend on a project or debug each other&apos;s code.
                     Variety helps keep learning fresh and prevents monotony.</li>
             </ul>
 
             <h2>7. Track Your Progress</h2>
             <p>Keep a coding journal or log your progress. Document what you learn each day, what challenges you face, and how you
                 overcome them. Using tools like GitHub to track your projects allows you to see your improvements over time. Looking
-                back on earlier work can be encouraging and a great reminder of how far you've come.</p>
+                back on earlier work can be encouraging and a great reminder of how far you&apos;ve come.</p>
 
             <h2>8. Take Breaks and Avoid Burnout</h2>
             <p>While dedication is important, overworking yourself can lead to burnout. Balance is key. Implement the Pomodoro
@@ -81,7 +81,7 @@ export default function Page() {
             <p>Computer science is vast—explore different topics like algorithms, AI, web development, and cybersecurity. Curiosity
                 keeps learning exciting and opens new doors for growth. Try experimenting with different Java libraries or
                 frameworks,
-                such as JavaFX for building GUIs or Spring Boot for web development. By exploring new areas, you'll gain a deeper
+                such as JavaFX for building GUIs or Spring Boot for web development. By exploring new areas, you&apos;ll gain a deeper
                 appreciation for programming and how it applies to various fields.</p>
 
             <h2>10. Get Expert Guidance</h2>

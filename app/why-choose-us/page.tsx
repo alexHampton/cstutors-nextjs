@@ -7,7 +7,7 @@ export default function Page() {
                 <div className="cs-content">
                     <span className="cs-topper">Why Choose Us</span>
                     <h2 className="cs-title">Get The Help You Need</h2>
-                    <p>Are you looking for an AP Computer Science A Tutor, but you're not sure which to choose? Here's what sets us apart
+                    <p>Are you looking for an AP Computer Science A Tutor, but you&apos;re not sure which to choose? Here&apos;s what sets us apart
                         from the rest. </p>
 
                 </div>
@@ -36,7 +36,7 @@ export default function Page() {
                                 <p className="cs-item-text">
                                     When you sign up with Computer Science Tutors, we provide you with access to an online code editor that
                                     allows you to code along with the tutor in real time.
-                                    Since it's all online, there is no hassle with getting things set up on your computer.
+                                    Since it&apos;s all online, there is no hassle with getting things set up on your computer.
                                     Just create an account and you are ready to start coding!
                                     The code editor allows for file structure, so you can create your own Java classes.
                                     It also provides debugging tools so you can practice tracing your code and see variable values as your
@@ -74,7 +74,7 @@ export default function Page() {
                                     </li>
                                     <li>
                                         <h3>Free Response Questions (FRQs)</h3>
-                                        <p>The FRQs can be very scary if you're not prepared. We start small with practice challenges, and work our way
+                                        <p>The FRQs can be very scary if you&apos;re not prepared. We start small with practice challenges, and work our way
                                             up to full-sized FRQs.</p>
                                     </li>
                                 </ul>

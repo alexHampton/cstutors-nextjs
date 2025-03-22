@@ -8,13 +8,13 @@ export default function Page() {
             title="Why AP Computer Science A? A Guide for High School Students"
             date="07 Mar 2025" >
                 
-            <p>In today's digital world, computer science is one of the most valuable skills students can learn. If you're a
-                high school student considering AP Computer Science A, you're on the right path to gaining a strong
+            <p>In today&apos;s digital world, computer science is one of the most valuable skills students can learn. If you&apos;re a
+                high school student considering AP Computer Science A, you&apos;re on the right path to gaining a strong
                 foundation in Java programming, problem-solving, and computational thinking.</p>
 
             <h2>What is AP Computer Science A?</h2>
             <p>AP Computer Science A is an advanced placement course that focuses on Java programming and object-oriented
-                design. It's designed to help students develop the skills needed for college-level computer science courses
+                design. It&apos;s designed to help students develop the skills needed for college-level computer science courses
                 and future careers in tech.</p>
 
             <h2>Why Should You Take AP Computer Science A?</h2>
@@ -35,7 +35,7 @@ export default function Page() {
                     programming.</li>
                 <li><strong>Practice Regularly</strong> - Coding is a skill that improves with practice, so work on coding
                     problems daily.</li>
-                <li><strong>Get Help When Needed</strong> - Don't hesitate to ask for help from experienced tutors who can
+                <li><strong>Get Help When Needed</strong> - Don&apos;t hesitate to ask for help from experienced tutors who can
                     clarify difficult topics and provide personalized guidance.</li>
             </ul>
 
@@ -45,9 +45,9 @@ export default function Page() {
                 you gain confidence and master Java programming.</p>
 
             <h3>Start Your Journey Today!</h3>
-            <p>If you're ready to ace AP Computer Science A, <Link
+            <p>If you&apos;re ready to ace AP Computer Science A, <Link
                 href="/#contact-1388">contact us</Link> to find the perfect tutor.
-                Whether you need help with concepts, coding exercises, or AP exam prep, we're here to guide you every step
+                Whether you need help with concepts, coding exercises, or AP exam prep, we&apos;re here to guide you every step
                 of the way!</p>
             </BlogPage>
 

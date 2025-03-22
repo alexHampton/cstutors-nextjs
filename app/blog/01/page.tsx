@@ -1,7 +1,7 @@
 import BlogPage from '../components/blogpage';
 
 // maybe can take in props from blogcard to create the props of the blogpage
-export default function Page({title}: {title: string}) {
+export default function Page() {
     return(
         <BlogPage 
             image='blog1.jpg'
@@ -13,7 +13,7 @@ export default function Page({title}: {title: string}) {
                 The AP Computer Science A (AP CSA) exam is a crucial test for students looking to demonstrate their proficiency in Java
                 programming. One of the most challenging yet rewarding sections of the exam is the Free-Response Questions (FRQs). This
                 portion requires students to write code by hand, applying their understanding of Java programming concepts to solve
-                real-world problems. In this guide, we'll explore the structure of the FRQ section, common question types, strategies
+                real-world problems. In this guide, we&apos;ll explore the structure of the FRQ section, common question types, strategies
                 for success, and tips to maximize your score.
             </p>
             <h3>Understanding the FRQ Section</h3>
@@ -51,7 +51,7 @@ export default function Page({title}: {title: string}) {
             <p>Sketch out a rough outline or pseudocode to organize your thoughts. This prevents syntax errors and helps ensure a
                 logical flow in your solution.</p>
             <h4>3. Use Proper Java Syntax</h4>
-            <p>Even though minor syntax mistakes may not heavily impact your score, it's crucial to use proper Java conventions,
+            <p>Even though minor syntax mistakes may not heavily impact your score, it&apos;s crucial to use proper Java conventions,
                 including:</p>
             <ul>
                 <li>Correct method headers</li>

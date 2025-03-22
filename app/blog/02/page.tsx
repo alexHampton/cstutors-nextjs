@@ -10,11 +10,11 @@ export default function Page() {
             <p>
                 The <strong>AP Computer Science A (AP CSA) exam</strong> is a big moment for students aiming to showcase their Java programming skills.
                 While studying and practicing coding problems is crucial, <strong>preparing for the exam day itself</strong> can make a significant
-                difference in your performance. Here's a guide on what to do <strong>before, during, and after</strong> the exam to set yourself up for
+                difference in your performance. Here&apos;s a guide on what to do <strong>before, during, and after</strong> the exam to set yourself up for
                 success.
             </p>
             <h3>The Night Before the Exam</h3>
-            <h4>1. Review Key Concepts, But Don't Cram</h4>
+            <h4>1. Review Key Concepts, But Don&apos;t Cram</h4>
 
             <ul>
                 <li>Go over <strong>important Java topics</strong> like <strong>loops, arrays, ArrayLists, recursion, classes, and
@@ -79,7 +79,7 @@ export default function Page() {
             <h3>After the Exam</h3>
             <h4>1. Take a Deep Breath & Relax</h4>
             <ul>
-                <li>You did your best—don't dwell on mistakes.</li>
+                <li>You did your best—don&apos;t dwell on mistakes.</li>
             </ul>
 
             <h4>2. Avoid Post-Exam Comparisons</h4>
@@ -89,12 +89,12 @@ export default function Page() {
 
             <h4>Celebrate Your Hard Work</h4>
             <ul>
-                <li>Enjoy a treat or fun activity—you've earned it!</li>
+                <li>Enjoy a treat or fun activity—you&apos;ve earned it!</li>
             </ul>
 
             <h3>Final Thoughts</h3>
-            <p>Preparing for the <strong>AP Computer Science A exam</strong> isn't just about knowing Java—it's also about managing your time, staying
-                focused, and keeping a clear mind. By following these steps, you'll set yourself up for a smooth exam experience and
+            <p>Preparing for the <strong>AP Computer Science A exam</strong> isn&apos;t just about knowing Java—it&apos;s also about managing your time, staying
+                focused, and keeping a clear mind. By following these steps, you&apos;ll set yourself up for a smooth exam experience and
                 maximize your chances of earning a great score.
                 Good luck, and happy coding! 🚀</p>
         

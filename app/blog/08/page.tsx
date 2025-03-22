@@ -9,12 +9,12 @@ export default function Page() {
             date="08 Mar 2025" >
 
 
-            <p>Debugging is an essential skill for every Java programmer. Whether you're just starting with AP Computer
+            <p>Debugging is an essential skill for every Java programmer. Whether you&apos;re just starting with AP Computer
                 Science A or working on advanced projects, learning how to effectively find and fix errors in your code can
                 save you time and frustration.</p>
 
             <h2>1. Understand the Error Messages</h2>
-            <p>Java provides detailed error messages when your code doesn't compile or crashes during execution. Pay
+            <p>Java provides detailed error messages when your code doesn&apos;t compile or crashes during execution. Pay
                 attention to:</p>
             <ul>
                 <li>The type of error (e.g., SyntaxError, NullPointerException, IndexOutOfBoundsException)</li>
@@ -54,13 +54,10 @@ export default function Page() {
 
             <h2>In Sum</h2>
             <p>Debugging takes practice, but with patience and the right approach, you can troubleshoot Java programs
-                efficiently. If you're looking for personalized guidance, <Link
+                efficiently. If you&apos;re looking for personalized guidance, <Link
                     href="/#contact-1388">Contact us</Link> to connect with expert tutors who
                 can help you master Java debugging techniques.</p>
-
-
-
-
+                
             </BlogPage>
     );
 }
