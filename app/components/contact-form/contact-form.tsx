@@ -21,10 +21,15 @@ export default function ContactForm({ contactMessage, setContactMessage }: Props
             setError(null);
             const myForm = event.target;
             const formData = new FormData(myForm);
+            const params = new URLSearchParams();
+            for (const [key, value] of (formData as FormData).entries()) {
+                params.append(key, value as string);
+            }
+
             const res = await fetch('/__forms.html', {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
-                body: new URLSearchParams(formData).toString()
+                body: params.toString()
             });
             if (res.status === 200) {
                 setStatus('ok');
