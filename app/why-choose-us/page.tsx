@@ -1,4 +1,5 @@
 import './why-choose-us.css';
+import Image from 'next/image';
 
 export default function Page() {
     return(
@@ -94,7 +95,7 @@ export default function Page() {
                     </ul>
                 </div>
                 {/* <!---SVG Graphic--> */}
-                <img className="cs-floater" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Graphics/diagnol-ovals.svg"
+                <Image className="cs-floater" src="/diagnol-ovals.svg"
                     alt="graphic" loading="lazy" decoding="async" height="710" aria-hidden="true" width="690"/>
             </div>
         </section>

@@ -8,7 +8,7 @@ type Props = {
 
 export default function ContactForm({ contactMessage, setContactMessage }: Props) {
 
-    const handleChange = (e: any) => {
+    const handleChange = (e: React.ChangeEvent<HTMLTextAreaElement>) => {
         setContactMessage(e.target.value);
     }
 
@@ -32,7 +32,6 @@ export default function ContactForm({ contactMessage, setContactMessage }: Props
                 <textarea className="cs-input cs-textarea" required name="Message" id="message-1388"
                     placeholder="Write message..." value={contactMessage} onChange={handleChange}></textarea>
             </label>
-            <div>{contactMessage}</div>
             <button className="cs-button-solid cs-submit" type="submit">Send Message</button>
             <label style={{'display': 'none'}} htmlFor="bot-field">Bot-name: <input name="bot-field" type="text" /></label>
         </form>

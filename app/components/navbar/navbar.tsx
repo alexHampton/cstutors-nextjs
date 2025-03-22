@@ -1,9 +1,7 @@
 "use client"
 import Image from 'next/image';
 import './navbar.css';
-import logo from './images/cst-logo-dark.svg';
 import Link from 'next/link';
-import { LinkName } from '@/app/enums';
 import clsx from 'clsx';
 import { usePathname } from 'next/navigation';
 

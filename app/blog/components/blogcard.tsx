@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 
 type Props = { 
     title: string, 
@@ -16,9 +17,9 @@ export default function BlogCard({ title, date, image, href }: Props) {
                                     srcset="./images/blog/blog1-m.webp">
                                     <source media="(min-width: 601px)"
                                         srcset="./images/blog/blog1-m.webp"> */}
-                    <img decoding="async"
-                        src={`./images/blog/${image}`}
-                        alt="computer" width="413" height="374" aria-hidden="true" />
+                    <Image
+                        src={`/images/blog/${image}`}
+                        alt="computer" width={413} height={374} aria-hidden="true" />
                 </picture>
                 <div className="cs-item-text">
                     <h3 className="cs-h3">

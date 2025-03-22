@@ -1,4 +1,4 @@
-import { JSX, ReactNode } from 'react';
+import { ReactNode } from 'react';
 import './blogpage.css';
 import Banner from './banner';
 

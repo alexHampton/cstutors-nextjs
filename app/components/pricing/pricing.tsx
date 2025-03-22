@@ -1,5 +1,6 @@
 import PriceCard from '../price-card/price-card';
 import './pricing.css';
+import Image from 'next/image';
 
 export default function Pricing({ setContactMessage }: { setContactMessage: CallableFunction}) {
     const flexPassPrice = 70;
@@ -42,7 +43,7 @@ export default function Pricing({ setContactMessage }: { setContactMessage: Call
                 <div className="cs-wrapper">
                     <ul className="cs-card-group">
 
-                        {pricingPlans.map((plan, index) => (
+                        {pricingPlans.map((plan) => (
                             <PriceCard
                                 key={plan.id}
                                 passType={plan.passType}
@@ -57,12 +58,12 @@ export default function Pricing({ setContactMessage }: { setContactMessage: Call
                 </div>
             </div>
             {/* <!-- SVG Graphic --> */}
-            <img className="cs-graphic cs-light"
-                src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Graphics/white-texture.svg" alt="graphic"
-                height="1920" width="483" loading="lazy" decoding="async" aria-hidden="true"/>
+            <Image className="cs-graphic cs-light"
+                src="/white-texture.svg" alt="graphic"
+                height={1920} width={483} loading="lazy" decoding="async" aria-hidden="true"/>
                 {/* <!--Dark mode graphic, download and save locally, then open the file in your code editor and change the fill color to match the background color of the section below it on dark mode--> */}
-                <img className="cs-graphic cs-dark" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Graphics/dark-spatter.svg"
-                    alt="graphic" height="1920" width="483" loading="lazy" decoding="async" aria-hidden="true"/>
+                <Image className="cs-graphic cs-dark" src="/dark-spatter.svg"
+                    alt="graphic" height={1920} width={483} loading="lazy" decoding="async" aria-hidden="true"/>
         </section>
     );
 }

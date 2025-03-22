@@ -25,7 +25,7 @@ export default function Page() {
             <h2>2. Use Print Statements for Debugging</h2>
             <p>A simple but effective way to debug is to insert <code>System.out.println()</code> statements in your code to
                 check variable values and execution flow.</p>
-            <pre><code>System.out.println("Value of x: " + x);</code></pre>
+            <pre><code>System.out.println(&quot;Value of x: &quot; + x);</code></pre>
 
             <h2>3. Utilize a Debugger</h2>
             <p>Modern IDEs like IntelliJ IDEA, Eclipse, and VS Code come with built-in debuggers. Features include:</p>
@@ -57,7 +57,7 @@ export default function Page() {
                 efficiently. If you&apos;re looking for personalized guidance, <Link
                     href="/#contact-1388">Contact us</Link> to connect with expert tutors who
                 can help you master Java debugging techniques.</p>
-                
+
             </BlogPage>
     );
 }
