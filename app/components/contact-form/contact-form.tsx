@@ -1,5 +1,5 @@
-
 import './contact-form.css';
+import { useState } from 'react';
 
 type Props = {
     contactMessage: string,
@@ -11,9 +11,45 @@ export default function ContactForm({ contactMessage, setContactMessage }: Props
     const handleChange = (e: React.ChangeEvent<HTMLTextAreaElement>) => {
         setContactMessage(e.target.value);
     }
+    const [status, setStatus] = useState<string | null>(null);
+    const [error, setError] = useState<string | null>(null);
+
+    const handleFormSubmit = async (event: React.ChangeEvent<HTMLFormElement>) => {
+        event.preventDefault();
+        try {
+            setStatus('pending');
+            setError(null);
+            const myForm = event.target;
+            const formData = new FormData(myForm);
+            const res = await fetch('/__forms.html', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+                body: new URLSearchParams(formData).toString()
+            });
+            if (res.status === 200) {
+                setStatus('ok');
+            } else {
+                setStatus('error');
+                setError(`${res.status} ${res.statusText}`);
+            }
+        } catch (e) {
+            setStatus('error');
+            setError(`${e}`);
+        }
+    };
+
+
+    // const handleFormSubmit02 = async (event: React.ChangeEvent<HTMLFormElement>) => {
+    //     event.preventDefault();
+    //     const formData = new FormData(event.target);
+    //     await fetch("/__forms.html", {
+    //         method: "POST",
+    //         headers: { "Content-Type": "application/x-www-form-urlencoded" },
+    //         body: new URLSearchParams(formData).toString(),
+    //     });
 
     return(
-        <form action='/thank-you' className="cs-form" id="cs-form-1388" name="Contact Form" method="post" netlify-honeypot="bot-field" data-netlify='true'>
+        <form name='contact' onSubmit={handleFormSubmit} action='/thank-you' className="cs-form" id="cs-form-1388" method="post" >
             <h3 className="cs-h3">Send us a message</h3>
             <label className="cs-label">
                 Name
