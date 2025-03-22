@@ -3,7 +3,7 @@ import BlogPage from "../components/blogpage";
 export default function Page() {
     return (    
         <BlogPage 
-            image="blog3.jpg" 
+            image="blog2.jpg" 
             title="How to Prepare for the Day of the AP Computer Science A Exam"
             date="03 Mar 2025" >
 

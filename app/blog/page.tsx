@@ -14,14 +14,14 @@ export default function Page() {
             'id': 2,
             'title': 'Prep for the Exam Day',
             'date': '03 Mar, 2025',
-            'image': 'blog3.jpg',
+            'image': 'blog2.jpg',
             'href': './blog/02',
         },
         {
             'id': 3,
             'title': 'Java classes for AP CSA',
             'date': '03 Mar, 2025',
-            'image': 'blog2.jpg',
+            'image': 'blog3.jpg',
             'href': './blog/03',
         },
         {

@@ -1,18 +1,13 @@
 import './footer.css';
 import Link from 'next/link';
 import Image from 'next/image';
-import { LinkName } from '@/app/enums';
 
-type Props = {
-    updateActiveLink: CallableFunction
-}
-
-export default function Footer({updateActiveLink}: Props) {
+export default function Footer() {
     return(
         <footer id="footer-1390">
             <div className="cs-container">
                 <div className="cs-top">
-                    <Link aria-label="go back to home" className="cs-logo" href="/" onClick={() => updateActiveLink(LinkName.Home)}>
+                    <Link aria-label="go back to home" className="cs-logo" href="/">
                     <Image
                                             src="/images/cst-logo-light.svg"
                                             alt='logo for computer science tutors'
@@ -24,16 +19,16 @@ export default function Footer({updateActiveLink}: Props) {
                     </Link>
                     <ul className="cs-ul">
                         <li className="cs-li">
-                            <Link href="/" className="cs-link" onClick={() => updateActiveLink(LinkName.Home)}>Home</Link>
+                            <Link href="/" className="cs-link">Home</Link>
                         </li>
                         <li className="cs-li">
-                            <Link href="why-choose-us" className="cs-link" onClick={() => updateActiveLink(LinkName.WhyChooseUs)}>Why Choose Us</Link>
+                            <Link href="why-choose-us" className="cs-link">Why Choose Us</Link>
                         </li>
                         <li className="cs-li">
-                            <Link href="/blog" className="cs-link" onClick={() => updateActiveLink(LinkName.Blog)}>Blog</Link>
+                            <Link href="/blog" className="cs-link">Blog</Link>
                         </li>
                         <li className="cs-li">
-                            <Link href="exam" className="cs-link" onClick={() => updateActiveLink(LinkName.Exam)}>The Exam</Link>
+                            <Link href="exam" className="cs-link">The Exam</Link>
                         </li>
                     </ul>
                 </div>

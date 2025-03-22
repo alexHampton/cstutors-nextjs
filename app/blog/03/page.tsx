@@ -3,7 +3,7 @@ import BlogPage from "../components/blogpage";
 export default function Page() {
     return (    
         <BlogPage 
-            image="blog2.jpg" 
+            image="blog3.jpg" 
             title="Understanding Classes in Java for AP Computer Science A"
             date="03 Mar 2025" >
                 
